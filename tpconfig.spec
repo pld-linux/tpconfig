@@ -1,8 +1,8 @@
+Summary:	Synaptics/ALPS TouchPad configuration tool
+Summary(pl):	Narzêdzie do konfiguracji TouchPadów Synaptics/ALPS
 Name:		tpconfig
 Version:	3.1.3
 Release:	1
-Summary:	Synaptics/ALPS TouchPad configuration tool
-Summary(pl):	Narzêdzie do konfiguracji Synaptics/ALPS TouchPad
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.compass.com/%{name}/%{name}-%{version}.tar.gz
@@ -14,7 +14,7 @@ This is a configuration tool for the Synaptics TouchPad and the ALPS
 Glidepad/Stickpointer used on many PC laptops.
 
 %description -l pl
-Narzêdzie do konfiguracji TouchPad'ów Synaptics i ALPS
+Narzêdzie do konfiguracji TouchPadów Synaptics i ALPS
 Glidepad/Stickpointer u¿ywanych w wielu komputerach przeno¶nych.
 
 %prep
@@ -29,10 +29,10 @@ Glidepad/Stickpointer u¿ywanych w wielu komputerach przeno¶nych.
 rm -rf $RPM_BUILD_ROOT
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-%files
-%defattr(644,root,root,755)
-%doc README AUTHORS COPYING INSTALL NEWS ChangeLog
-%attr(755,root,root) %{_bindir}/tpconfig
-
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(644,root,root,755)
+%doc README AUTHORS INSTALL NEWS ChangeLog
+%attr(755,root,root) %{_bindir}/tpconfig
