@@ -8,7 +8,7 @@ Group:		Applications/System
 Source0:	http://www.compass.com/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	50acfa33b3be03aac9d7131edb07373f
 BuildRequires:	autoconf
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a configuration tool for the Synaptics TouchPad and the ALPS
