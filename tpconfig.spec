@@ -1,5 +1,5 @@
 Summary:	Synaptics/ALPS TouchPad configuration tool
-Summary(pl):	Narzêdzie do konfiguracji TouchPadów Synaptics/ALPS
+Summary(pl.UTF-8):   NarzÄ™dzie do konfiguracji TouchPadÃ³w Synaptics/ALPS
 Name:		tpconfig
 Version:	3.1.3
 Release:	1
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a configuration tool for the Synaptics TouchPad and the ALPS
 Glidepad/Stickpointer used on many PC laptops.
 
-%description -l pl
-Narzêdzie do konfiguracji TouchPadów Synaptics i ALPS
-Glidepad/Stickpointer u¿ywanych w wielu komputerach przeno¶nych.
+%description -l pl.UTF-8
+NarzÄ™dzie do konfiguracji TouchPadÃ³w Synaptics i ALPS
+Glidepad/Stickpointer uÅ¼ywanych w wielu komputerach przenoÅ›nych.
 
 %prep
 %setup -q
