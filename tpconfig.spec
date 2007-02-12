@@ -1,5 +1,5 @@
 Summary:	Synaptics/ALPS TouchPad configuration tool
-Summary(pl.UTF-8):   Narzędzie do konfiguracji TouchPadów Synaptics/ALPS
+Summary(pl.UTF-8):	Narzędzie do konfiguracji TouchPadów Synaptics/ALPS
 Name:		tpconfig
 Version:	3.1.3
 Release:	1
